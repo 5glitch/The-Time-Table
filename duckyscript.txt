@@ -1,0 +1,17 @@
+REM_BLOCK
+  Language: EN-US
+  Description: Windows executable DuckyScript file for Flipper Devices etc.
+  Resources:
+    https://docs.hak5.org/hak5-usb-rubber-ducky/duckyscript-tm-quick-reference
+    https://docs.flipper.net/bad-usb
+END_REM
+
+REM WINDOWS D
+DELAY 1000
+$_SYSTEM_LEDS_ENABLED = FALSE
+$_STORAGE_LEDS_ENABLED = FALSE
+$_LED_CONTINUOUS_SHOW_STORAGE_ACTIVITY = FALSE
+DELAY 2000
+$_SYSTEM_LEDS_ENABLED = TRUE
+$_STORAGE_LEDS_ENABLED = TRUE
+$_LED_CONTINUOUS_SHOW_STORAGE_ACTIVITY = TRUE
